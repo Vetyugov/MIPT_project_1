@@ -1,4 +1,4 @@
-package ru.netology.nvetyugov;
+package ru.netology.nvetyugov.taks1;
 
 public class Main {
     public static void main(String[] args) {

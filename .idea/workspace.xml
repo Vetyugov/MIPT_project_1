@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e0dea7-858c-41a2-9e27-392ebebdbf2f" name="Changes" comment="" />
+    <list default="true" id="26e0dea7-858c-41a2-9e27-392ebebdbf2f" name="Changes" comment="Task_1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/task2/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/taks1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,21 +41,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.ru.netology.nvetyugov.task2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.taks_1.Main" />
       <module name="nvetyugov" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.nvetyugov.*" />
+          <option name="PATTERN" value="ru.netology.nvetyugov.taks1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.netology.nvetyugov.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.task2.Main" />
+      <module name="nvetyugov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.nvetyugov.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.netology.nvetyugov.task2.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -75,7 +108,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707992657334</updated>
+      <workItem from="1707992756000" duration="4486000" />
     </task>
+    <task id="LOCAL-00001" summary="Task_1">
+      <created>1707993008055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707993008055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task_1" />
   </component>
 </project>
