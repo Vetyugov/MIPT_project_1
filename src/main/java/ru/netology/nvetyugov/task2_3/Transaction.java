@@ -1,4 +1,4 @@
-package ru.netology.nvetyugov.task2;
+package ru.netology.nvetyugov.task2_3;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
