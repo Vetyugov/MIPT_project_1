@@ -28,7 +28,8 @@ public class Main {
             switch (cmd) {
                 case "1" -> addTransactions(scanner);
                 case "2" -> printList();
-                case "3" -> exit();
+                case "3" -> findForDates(scanner);
+                case "4" -> exit();
             }
             printMainInfo();
         }
@@ -38,7 +39,8 @@ public class Main {
         System.out.println("Выберите команду: \n" +
                 "1 - Добавить 5 транзакций\n" +
                 "2 - Просмотреть транзакции\n" +
-                "3 - Выход");
+                "3 - Найти транзакцию\n" +
+                "4 - Выход");
     }
 
     private void addTransactions(Scanner scanner) {
@@ -63,9 +65,19 @@ public class Main {
     private void printList() {
         for (int i = 0; i < ARRAY_SIZE; i++) {
             System.out.println(getStringTransaction(i));
-
         }
+    }
 
+    private void findForDates(Scanner scanner){
+        System.out.println("Введите дату и время начала поиска (формат dd-MM-yyyy HH:mm:ss):");
+        LocalDateTime start = (LocalDateTime.parse(scanner.nextLine(), formatter));
+        System.out.println("Введите дату и время конца поиска (формат dd-MM-yyyy HH:mm:ss):");
+        LocalDateTime finish = (LocalDateTime.parse(scanner.nextLine(), formatter));
+        for (int i = 0; i < ARRAY_SIZE; i++) {
+            if(times[i].isBefore(finish) && times[i].isAfter(start)){
+                System.out.println(getStringTransaction(i));
+            }
+        }
     }
 
     private String getStringTransaction(int number){
