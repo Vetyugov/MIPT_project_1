@@ -1,7 +1,7 @@
 package ru.netology.nvetyugov.task8_9;
 
-import ru.netology.nvetyugov.task7.exceptions.ReadDataFromFileException;
-import ru.netology.nvetyugov.task7.exceptions.WriteDataToFileException;
+import ru.netology.nvetyugov.task8_9.exceptions.ReadDataFromFileException;
+import ru.netology.nvetyugov.task8_9.exceptions.WriteDataToFileException;
 
 import java.io.*;
 import java.nio.file.Files;

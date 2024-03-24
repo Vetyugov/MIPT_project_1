@@ -1,7 +1,7 @@
 package ru.netology.nvetyugov.task8_9.model.operations;
 
 import lombok.Data;
-import ru.netology.nvetyugov.task7.ConsolePrintable;
+import ru.netology.nvetyugov.task8_9.ConsolePrintable;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

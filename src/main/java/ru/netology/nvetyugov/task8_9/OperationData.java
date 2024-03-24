@@ -1,8 +1,8 @@
 package ru.netology.nvetyugov.task8_9;
 
 import lombok.Getter;
-import ru.netology.nvetyugov.task7.model.Customer;
-import ru.netology.nvetyugov.task7.model.operations.Operation;
+import ru.netology.nvetyugov.task8_9.model.Customer;
+import ru.netology.nvetyugov.task8_9.model.operations.Operation;
 
 import java.io.Serializable;
 import java.util.Arrays;
