@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e0dea7-858c-41a2-9e27-392ebebdbf2f" name="Changes" comment="Task_1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/task2/Transaction.java" afterDir="false" />
+    <list default="true" id="26e0dea7-858c-41a2-9e27-392ebebdbf2f" name="Changes" comment="Задание 8,9">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/OperationHistoryApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/configuration/OperationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/controller/OperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/CustomerOperationOutOfBoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/OperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/OperationOutOfBoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/OperationRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/ReadDataFromFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/exceptions/WriteDataToFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/CustomersGetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/OperationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/dto/OperationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/operations/CashbackOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/operations/LoanOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/model/operations/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/AsyncInputOperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/SerializationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/StatementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/service/storageServices/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/finalProject/util/ConsolePrintable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/nvetyugov/finalProject/controller/CustomerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/nvetyugov/taks1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,25 +68,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/ownProjects/MIPT_project_1/src/main/java/ru/netology/nvetyugov&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ru.netology.nvetyugov.task2.Main">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ownProjects\MIPT_project_1\src\main\java\ru\netology\nvetyugov" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ownProjects\MIPT_project_1\src\main\resources" />
+      <recent name="C:\ownProjects\MIPT_project_1\src\main\java\ru\netology\nvetyugov\task6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.netology.nvetyugov.task_4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerControllerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.taks_1.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.task8_9.Main" />
       <module name="nvetyugov" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.nvetyugov.taks1.*" />
+          <option name="PATTERN" value="ru.netology.nvetyugov.task8_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,15 +107,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.netology.nvetyugov.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.task2.Main" />
+    <configuration name="ru.netology.nvetyugov.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.task6.Main" />
       <module name="nvetyugov" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.nvetyugov.task2.*" />
+          <option name="PATTERN" value="ru.netology.nvetyugov.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.netology.nvetyugov.task7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.task7.Main" />
+      <module name="nvetyugov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.nvetyugov.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nvetyugov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.nvetyugov.finalProject.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.nvetyugov.finalProject.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.nvetyugov.finalProject.controller.CustomerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,10 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperationHistoryApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nvetyugov" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.nvetyugov.finalProject.OperationHistoryApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.nvetyugov.finalProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.netology.nvetyugov.task2.Main" />
+        <item itemvalue="JUnit.CustomerControllerTest" />
+        <item itemvalue="Spring Boot.OperationHistoryApiApplication" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ru.netology.nvetyugov.task7.Main" />
+        <item itemvalue="Application.ru.netology.nvetyugov.task6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +192,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707992657334</updated>
-      <workItem from="1707992756000" duration="4486000" />
+      <workItem from="1707992756000" duration="4794000" />
+      <workItem from="1708529135826" duration="5727000" />
+      <workItem from="1708845316070" duration="138000" />
+      <workItem from="1708845760272" duration="16815000" />
+      <workItem from="1709889618581" duration="483000" />
+      <workItem from="1710688233263" duration="46000" />
+      <workItem from="1710830511736" duration="3733000" />
+      <workItem from="1711288171036" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="Task_1">
       <created>1707993008055</created>
@@ -117,14 +208,97 @@
       <option name="project" value="LOCAL" />
       <updated>1707993008055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. разделил выполненные задания по папкам&#10;2. В задании 2 реализовал консольное приложение с возможностью создать транзакцию, просмотреть список созданных транзакций и выходом. Транзакция имеет 4 поля с разными типами данных">
+      <created>1708161356122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708161356122</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Задание 3 сделал в задании 2">
+      <created>1708529803267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708529803267</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Задание 4&#10;поля транзакций в массивах">
+      <created>1708533655098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708533655098</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Задание 4&#10;поиск транзакций по диапазону дат">
+      <created>1708534982890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708534982890</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Задание 5&#10;Выполнены все пункты">
+      <created>1709393228781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709393228781</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Задание 6&#10;Выполнены все пункты">
+      <created>1710831220725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710831220725</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Задание 7&#10;Выполнены все пункты">
+      <created>1710878175722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710878175722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="version from task 7">
+      <created>1711288436112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711288436112</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Задание 8,9">
+      <created>1711288733474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711288733474</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task_1" />
+    <MESSAGE value="1. разделил выполненные задания по папкам&#10;2. В задании 2 реализовал консольное приложение с возможностью создать транзакцию, просмотреть список созданных транзакций и выходом. Транзакция имеет 4 поля с разными типами данных" />
+    <MESSAGE value="Задание 3 сделал в задании 2" />
+    <MESSAGE value="Задание 4&#10;поля транзакций в массивах" />
+    <MESSAGE value="Задание 4&#10;поиск транзакций по диапазону дат" />
+    <MESSAGE value="Задание 5&#10;Выполнены все пункты" />
+    <MESSAGE value="Задание 6&#10;Выполнены все пункты" />
+    <MESSAGE value="Задание 7&#10;Выполнены все пункты" />
+    <MESSAGE value="version from task 7" />
+    <MESSAGE value="Задание 8,9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 8,9" />
   </component>
 </project>
